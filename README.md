@@ -1,3 +1,2 @@
-# AI Sports Complex Optimizer
-Deployed with full module set.
-Main login: admin@venture.com / admin123
+# Venture North Admin Dashboard
+Production-ready suite with full functionality. Use `main_app.py` to deploy.
