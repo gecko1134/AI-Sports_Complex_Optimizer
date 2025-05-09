@@ -2,5 +2,5 @@
 import streamlit as st
 
 def run():
-    st.title("📄 Sponsor PDF Generator")
-    st.markdown("Upload CSV and export PDFs for each sponsor.")
+    st.title("📄 Sponsor Fulfillment PDF Generator")
+    st.markdown("This module will generate sponsor reports.")
