@@ -20,7 +20,7 @@ modules = [
     "team_loyalty_credit_system", "calendar_booking_credit_check",
     "google_sheets_sync", "ai_sponsor_match_score", "ai_scheduling_optimizer",
     "enhanced_grant_tracker", "usage_tracker", "credit_usage_tracker",
-    "batch_badge_generator", "board_of_directors_dashboard"
+    "batch_badge_generator", "board_of_directors_dashboard", "flipbook_embed",
 ]
 
 tab = st.sidebar.selectbox("Choose Module", ["Welcome"] + [x.replace('_', ' ').title() for x in modules])
