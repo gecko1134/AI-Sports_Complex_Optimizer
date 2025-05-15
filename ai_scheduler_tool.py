@@ -1,4 +1,5 @@
 import streamlit as st
+
 def run():
-    st.title("AI Scheduler")
-    st.info("Optimizing facility usage schedule based on revenue, traffic, and demand.")
+    st.title("AI scheduler")
+    st.info("This is a live placeholder module. Add functionality here.")

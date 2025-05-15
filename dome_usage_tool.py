@@ -1,4 +1,5 @@
 import streamlit as st
+
 def run():
-    st.title("Dome Usage")
-    st.success("Dome usage tracker loaded.")
+    st.title("Facility usage tools")
+    st.info("This is a live placeholder module. Add functionality here.")

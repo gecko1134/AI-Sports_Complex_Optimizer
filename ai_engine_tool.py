@@ -1,4 +1,5 @@
 import streamlit as st
+
 def run():
-    st.title("AI Engine")
-    st.success("AI tools and NIL tracking loaded.")
+    st.title("AI engine base")
+    st.info("This is a live placeholder module. Add functionality here.")

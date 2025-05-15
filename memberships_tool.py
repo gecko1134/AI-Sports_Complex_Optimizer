@@ -1,4 +1,5 @@
 import streamlit as st
+
 def run():
-    st.title("Memberships")
-    st.success("Membership tools loaded successfully.")
+    st.title("Membership tools")
+    st.info("This is a live placeholder module. Add functionality here.")

@@ -1,6 +1,5 @@
-
 import streamlit as st
 
 def run():
-    st.title("Sponsor Dashboard")
-    st.success("This module loaded successfully.")
+    st.title("Sponsor overview")
+    st.info("This is a live placeholder module. Add functionality here.")

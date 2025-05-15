@@ -1,4 +1,5 @@
 import streamlit as st
+
 def run():
-    st.title("Finance")
-    st.success("Finance and risk dashboard loaded.")
+    st.title("Finance dashboard")
+    st.info("This is a live placeholder module. Add functionality here.")

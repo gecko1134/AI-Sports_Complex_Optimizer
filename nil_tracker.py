@@ -1,8 +1,5 @@
-
 import streamlit as st
-import pandas as pd
 
 def run():
-    st.title("📘 NIL Tracker with Stats + Rankings")
-    st.markdown("This module will provide real-time tools and reports for: **NIL Tracker with Stats + Rankings**.")
-    st.info("Feature expansion in progress. Placeholder for logic and dashboard.")
+    st.title("NIL tracking & athlete visibility")
+    st.info("This is a live placeholder module. Add functionality here.")

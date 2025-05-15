@@ -1,4 +1,5 @@
 import streamlit as st
+
 def run():
-    st.title("AI Matchmaker")
-    st.info("Matching sponsors, teams, and NIL profiles in progress.")
+    st.title("AI matchmaker")
+    st.info("This is a live placeholder module. Add functionality here.")
