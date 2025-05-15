@@ -5,8 +5,9 @@ def run():
     st.title("💵 Revenue Heatmap")
     df = pd.DataFrame({
         "Hour": ["8-9", "9-10", "10-11"],
-        "Turf A": [200, 250, 180],
-        "Court 1": [100, 75, 60]
+        "Court 1": [80, 120, 60],
+        "Court 2": [90, 100, 40],
+        "Turf": [300, 450, 200]
     })
     st.dataframe(df)
-    st.warning("⚠️ Suggest bundling Court 1 for rec groups 10–11 AM.")
+    st.line_chart(df.set_index("Hour"))

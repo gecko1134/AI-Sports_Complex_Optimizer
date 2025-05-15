@@ -2,11 +2,11 @@ import streamlit as st
 import pandas as pd
 
 def run():
-    st.title("📑 Contract Usage Tracker")
-    contracts = pd.DataFrame({
-        "Org": ["UMD Soccer", "City League"],
-        "Hours Purchased": [100, 50],
-        "Used": [82, 38]
+    st.title("📑 Contract Tracker")
+    data = pd.DataFrame({
+        "Organization": ["UMD", "ACME Inc"],
+        "Purchased": [100, 200],
+        "Used": [80, 120]
     })
-    contracts["Remaining"] = contracts["Hours Purchased"] - contracts["Used"]
-    st.dataframe(contracts)
+    data["Remaining"] = data["Purchased"] - data["Used"]
+    st.dataframe(data)
