@@ -1,18 +1,1 @@
-{
-  "admin@example.com": {
-    "password": "admin123",
-    "role": "admin"
-  },
-  "sponsor@example.com": {
-    "password": "sponsor123",
-    "role": "sponsor_manager"
-  },
-  "finance@example.com": {
-    "password": "finance123",
-    "role": "finance"
-  },
-  "viewer@example.com": {
-    "password": "viewer123",
-    "role": "viewer"
-  }
-}
+{"admin@example.com": {"password": "admin123", "role": "admin"}}
