@@ -1,5 +1,10 @@
 import streamlit as st
+import pandas as pd
 
 def run():
-    st.title("Module Placeholder")
-    st.info("This module is loading correctly.")
+    st.title("🏛️ Governance Board")
+    members = pd.DataFrame({
+        "Name": ["Alice", "Bob"],
+        "Role": ["Chair", "Treasurer"]
+    })
+    st.dataframe(members)

@@ -1,5 +1,11 @@
 import streamlit as st
+import pandas as pd
 
 def run():
-    st.title("Module Placeholder")
-    st.info("This module is loading correctly.")
+    st.title("📆 Visual Layout")
+    schedule = pd.DataFrame({
+        "Time": ["8-9", "9-10", "10-11"],
+        "Turf A": ["Soccer", "Open", "Cricket"],
+        "Court 1": ["Basketball", "Open", "Pickleball"]
+    })
+    st.dataframe(schedule)

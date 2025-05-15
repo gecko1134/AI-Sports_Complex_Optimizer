@@ -1,5 +1,8 @@
 import streamlit as st
+import pandas as pd
 
 def run():
-    st.title("Module Placeholder")
-    st.info("This module is loading correctly.")
+    st.title("📊 Central Dashboard")
+    st.metric("Total Revenue This Month", "$18,750")
+    st.metric("Active Members", 187)
+    st.metric("Contracts Nearing Renewal", 3)
