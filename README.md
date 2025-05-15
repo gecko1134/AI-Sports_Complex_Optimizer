@@ -1,40 +1,73 @@
-# 🏟️ Venture North Admin Platform
+# 🏟️ Venture North Admin Suite
 
-This repository includes a full-stack, AI-enhanced admin suite for your sports complex.
+A fully integrated, AI-powered operations platform for managing all aspects of your sports complex.
 
-## ✅ Features by Module
-
-### 👥 Memberships
-- Member dashboard, credit tracking, AI upgrade suggestions
-- Benchmarking other facility offerings
-
-### 🏟️ Dome Usage
-- Usage logger, real-time AI optimizer, calendar layout, pricing tools
-
-### 💼 Sponsorship
-- AI calculator, contract generator, PandaDoc send, ROI tracker
-
-### 📑 Contracts
-- Track usage hours by org, AI renewal and upsell suggestions, benchmarking
-
-### 🏛️ Governance
-- Board member log, mentorship, student reps, scholarships
-
-### 🤝 Personnel
-- Referee scheduling, volunteers, teams, leagues
-
-### 📢 NIL & AI Tools
-- Matchmaking, athlete tracking, AI scheduling
+## ✅ Features by Category
 
 ### 📊 Central Dashboard
-- One-click view of revenue, contracts, usage, and AI insights
+- Revenue, contract, and usage snapshot
+- AI suggestions to improve efficiency
 
-## 🚀 Setup
-1. Clone repo
-2. Set `main_app.py` as entry point
-3. Add your API keys to `.streamlit/secrets.toml`
-4. Deploy on Streamlit Cloud
+### 👥 Memberships
+- Member profiles and tiers
+- Credit tracking and AI-driven upsells
+- Market comparison to peer facilities
 
-## 🔐 Secrets Template
-- `SENDGRID_API_KEY`
-- `PANDADOC_API_KEY`
+### 🏟️ Dome Usage
+- Usage logger for all courts and turf
+- Revenue heatmaps and optimizer
+- Visual layout and AI-driven scheduling
+
+### 💼 Sponsorship
+- Sponsor CRM and contract generation (PandaDoc-ready)
+- AI pricing calculator and ROI tracker
+
+### 📑 Contracts & Orgs
+- Contract tracking and AI renewal logic
+- Usage monitoring per organization
+- Market benchmarking against similar complexes
+
+### 🏛️ Governance
+- Board dashboard, mentorship, student committees
+- Scholarship eligibility logic
+
+### 🤝 Personnel
+- Volunteers, referees, leagues, teams
+
+### 📢 NIL & AI Tools
+- NIL tracker, AI matchmaker, AI scheduler
+
+---
+
+## 🔐 Login System
+- Email/password authentication with roles
+- Role-based visibility across all tools
+- Stored in `users.json`
+
+---
+
+## 🚀 Deployment Instructions
+
+1. Unzip all files
+2. Push to GitHub using the script below
+3. Set `main_app.py` as the entrypoint in Streamlit Cloud
+4. Add secrets to `.streamlit/secrets.toml` as needed
+
+---
+
+## 🔁 Weekly Report Automation (Optional)
+Schedule a weekly run of:
+- Revenue summary
+- Tool usage reports
+- Contract renewals due
+- Sponsor ROI tracking
+
+Requires simple task scheduler + email API (SendGrid-compatible)
+
+---
+
+## 📁 File Map
+
+- `main_app.py` — Entry point
+- `auth.py`, `users.json` — Login system
+- `*.py` — Module tools (each tool has a `run()` method)
