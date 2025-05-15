@@ -1,5 +1,5 @@
 import streamlit as st
 
 def run():
-    st.title("📄 Contract Generator")
-    st.markdown("Generate a sponsor or NIL agreement for PandaDoc.")
+    st.title("Contract management with PandaDoc")
+    st.info("This is a live placeholder module. Add functionality here.")
